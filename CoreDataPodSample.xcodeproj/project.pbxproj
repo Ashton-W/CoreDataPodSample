@@ -24,6 +24,7 @@
 		17D9827017BDBFC2003A1BA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17D9826E17BDBFC2003A1BA9 /* InfoPlist.strings */; };
 		17D9827317BDBFC2003A1BA9 /* CoreDataPodSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D9827217BDBFC2003A1BA9 /* CoreDataPodSampleTests.m */; };
 		17D9828417BDC0F2003A1BA9 /* CoreDataPodSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17D9828017BDC0F2003A1BA9 /* CoreDataPodSample.xcdatamodeld */; };
+		17D9828717BDCF1E003A1BA9 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D9828617BDCF1E003A1BA9 /* Entity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		17D9828117BDC0F2003A1BA9 /* CoreDataPodSample 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataPodSample 2.xcdatamodel"; sourceTree = "<group>"; };
 		17D9828217BDC0F2003A1BA9 /* CoreDataPodSample 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataPodSample 3.xcdatamodel"; sourceTree = "<group>"; };
 		17D9828317BDC0F2003A1BA9 /* CoreDataPodSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPodSample.xcdatamodel; sourceTree = "<group>"; };
+		17D9828517BDCF1E003A1BA9 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		17D9828617BDCF1E003A1BA9 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 			isa = PBXGroup;
 			children = (
 				17D9828017BDC0F2003A1BA9 /* CoreDataPodSample.xcdatamodeld */,
+				17D9828517BDCF1E003A1BA9 /* Entity.h */,
+				17D9828617BDCF1E003A1BA9 /* Entity.m */,
 			);
 			name = Classes;
 			path = CoreDataPodSample/Classes;
@@ -303,6 +308,7 @@
 				17D9825017BDBFC2003A1BA9 /* main.m in Sources */,
 				17D9825417BDBFC2003A1BA9 /* PHAppDelegate.m in Sources */,
 				17D9828417BDC0F2003A1BA9 /* CoreDataPodSample.xcdatamodeld in Sources */,
+				17D9828717BDCF1E003A1BA9 /* Entity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

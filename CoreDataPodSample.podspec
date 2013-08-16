@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = "Ashton-W"
   s.platform     = :ios
   s.source       = { :git => "https://github.com/Ashton-W/CoreDataPodSample.git", :tag => "0.0.1" }
-  s.source_files  = 'CoreDataPodSample/Classes/*'
+  s.source_files  = 'CoreDataPodSample/Classes'
   s.framework  = 'CoreData'
   s.requires_arc = true
 end
