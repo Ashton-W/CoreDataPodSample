@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/Ashton-W/CoreDataPodSample.git", :tag => s.version.to_s }
   s.source_files  = 'CoreDataPodSample/Classes'
-  s.resources = 'CoreDataPodSample/Classes/*.xcdatamodeld'
+  s.resources = ['CoreDataPodSample/Classes/*.xcdatamodeld']
   s.framework  = 'CoreData'
   s.requires_arc = true
 end
